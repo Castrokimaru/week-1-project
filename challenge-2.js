@@ -1,4 +1,3 @@
-
 function calculateDemeritPoints(speed) {
     const speedLimit = 70;
     const kmPerDemeritPoint = 5;
@@ -15,6 +14,7 @@ function calculateDemeritPoints(speed) {
         }
     }
 }
+ 
 
 function speedDetector() {
     const readline = require('readline').createInterface({
